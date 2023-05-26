@@ -1,6 +1,3 @@
-gunicorn==20.0.4
 Flask
-Werkzeug
 python-dotenv
-Flask-CORS
 bardapi
