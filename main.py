@@ -21,7 +21,7 @@ def returnB():
     Package = request.json
     if Package['Key'] == os.environ.get('USR_KEY'):
         test = ai.get_answer(Package['Query'])
-        var ["Content"]=test['content']  
+        var["Content"]=test['content']  
     return var
 
 if "__main__" == __name__:
