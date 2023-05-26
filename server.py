@@ -21,6 +21,3 @@ def returnB():
         test = ai.get_answer(Package['Query'])
         var["Content"]=test['content']  
     return var
-
-if "__main__" == __name__:
-    app.run()
