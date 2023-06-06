@@ -13,7 +13,7 @@ def heartbeat():
 
 @app.route('/getBard_Response', methods=['POST'])
 def returnB():
-    var = {'Content' : "bhag bsdk"}
+    var = {'Content' : "Please use suitable keys!"}
     API_key = os.environ.get('API_KEY')
     ai = Bard(token=API_key)
     Package = request.json
